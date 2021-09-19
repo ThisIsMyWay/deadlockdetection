@@ -19,7 +19,7 @@ public class FirstThread implements Runnable {
         System.out.println("FirstThread - first lock acquired");
 
         try {
-            Thread.sleep(10000);
+            Thread.sleep(100);
         } catch (InterruptedException e) {
             //nothing to do
         }

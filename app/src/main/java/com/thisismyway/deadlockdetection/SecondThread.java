@@ -20,7 +20,7 @@ public class SecondThread implements Runnable {
 
         try {
             // thread sleep to be sure that deadlock will happen
-            Thread.sleep(10000);
+            Thread.sleep(100);
         } catch (InterruptedException e) {
             //nothing to do
         }
